@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    width: 100%;
+    position: fixed;
+    top:0;
+    background-color:#222222;
+}
+.head{
+    
+    display: flex;
+    
+}
+ .head h1{
+    font-size: 50px;
+    margin-top: 25px ;
+    color: #EF7C2B;
+}
+#header nav ul li {
+    list-style: none;
+    float: left;
+    padding: 18px 20px;
+    
+
+}
+#header nav ul li a:hover{
+    color:#EF7C2B ;
+  
+}
+#header a{
+    color: aliceblue;
+    font-size: 25px;
+    text-decoration: none
+
+}
+.btn{
+    border: 0;
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background:transparent;
+    margin-right:50px ;
+    color: aliceblue;
+    font-size: 10px;
+}
+.btn:active{
+    transform: scale(0.98);
+}
+.main h1{
+    text-align: center;
+    margin: 50px;
+}
+.main-2{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+.main-2 p{
+    margin: 30px;
+    font-size: 30px;
+}
+.main{
+    margin-top: 180px;
+}
+#footer{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+#footer ul li:hover{
+    color:#EF7C2B ;
+}
+.F-2{
+    margin-left: 10%;
+    
+}
+.F-3{
+    margin-left: 10%;
+}
+.F-1 li {
+    font-size: 25px;
+}
+.F-2 li {
+    font-size: 25px;
+}
+.F-3 li{
+    font-size: 25px;
+}
+.last{
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 25px;
+}
+.last-2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top:15px;
+    font-size: 18px;
+}

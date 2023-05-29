@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    width: 100%;
+    position: fixed;
+    top:0;
+    background-color: black;
+}
+.head{
+    
+    display: flex;
+    
+}
+ .head h1{
+    font-size: 50px;
+    margin-top: 25px ;
+    color: #EF7C2B;
+}
+#header nav ul li {
+    list-style: none;
+    float: left;
+    padding: 18px 20px;
+    
+
+}
+#header nav ul li a:hover{
+    color:#EF7C2B ;
+  
+}
+#header a{
+    color: aliceblue;
+    font-size: 25px;
+    text-decoration: none
+
+}
+.btn{
+    border: 0;
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background:transparent;
+    margin-right:50px ;
+    color: aliceblue;
+    font-size: 10px;
+}
+.btn:active{
+    transform: scale(0.98);
+}
+#main{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.main-2{
+    display: flex;
+}
+.main-icon-2{
+    margin-left: 10px;
+}
+.main-1{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.main-1 p{
+    margin-top: 30px;
+}
+#footer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+}
+#footer ul li:hover{
+    color:#EF7C2B ;
+}
+.F-2{
+    margin-left: 10%;
+    
+}
+.F-3{
+    margin-left: 10%;
+}
+.F-1 li {
+    font-size: 25px;
+}
+.F-2 li {
+    font-size: 25px;
+}
+.F-3 li{
+    font-size: 25px;
+}
+#footer-1{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 20px;
+    color: aliceblue;
+}
+#footer-0{
+    background-color: black;
+    margin-top: 200px;
+}
+.btn-1  a p:hover{
+    background-color:  yellow;
+}
+.sud-menu{
+    float: left;
+}
